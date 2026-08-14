@@ -100,11 +100,3 @@ The included `Jenkinsfile` defines a pipeline that:
 | `PUSH_TO_REGISTRY` | *(unset)* | Set to `true` to enable the Docker Hub push stage |
 | `DOCKERHUB_REPO` | `yourdockerhubuser/flipkartclone-maven` | Target repo for pushed images |
 | `DOCKERHUB_CREDS` | `dockerhub-creds` | Jenkins credentials ID for Docker Hub |
-
-## Kubernetes (Optional)
-
-`azure-pipelines.yml` includes a sample Kubernetes `Deployment` and `Service` for running the container image in a cluster with a `LoadBalancer` service on port `8080`, if you'd rather deploy to Kubernetes instead of running a standalone container.
-
-## License
-
-No license specified.
